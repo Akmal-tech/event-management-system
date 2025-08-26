@@ -55,11 +55,11 @@ event-management-system/
 git clone https://github.com/Akmal-tech/event-management-system.git
 cd event-management-system
 
-**
+
 # Backend setup
 cd backend
 npm install
-npm start **
+npm start 
 
 # Frontend setup
 cd frontend
