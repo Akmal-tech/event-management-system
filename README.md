@@ -29,3 +29,51 @@ This project allows users to browse and book events like **corporate events, bir
 
 ## 📂 Project Structure
 
+event-management-system/
+│── backend/ # Express + MongoDB server
+│ ├── models/
+│ ├── routes/
+│ ├── controllers/
+│ ├── app.js
+│ └── package.json
+│
+│── frontend/ # React client
+│ ├── src/
+│ ├── public/
+│ └── package.json
+│
+│── .gitignore
+│── README.md
+
+
+---
+
+## ⚡ Getting Started
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/Akmal-tech/event-management-system.git
+cd event-management-system
+
+
+# Backend setup
+cd backend
+npm install
+npm start 
+
+# Frontend setup
+cd frontend
+npm install
+npm run dev
+
+## ⚡ Getting Started
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/Akmal-tech/event-management-system.git
+cd event-management-system
+
+
+## 📄 License
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
+
