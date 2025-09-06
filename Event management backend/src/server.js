@@ -11,7 +11,7 @@ import paymentRoutes from "./routes/payment.js";  // ✅ import
 import eventsRoutes from "./routes/event.js";
 import contactRoutes from "./routes/contact.js";
 import uploadRoutes from "./routes/uploads.js";
-import sportsPaymentRoutes from "./routes/SportsPayment.js";
+import SportsPaymentRoutes from "./routes/SportsPayment.js";
 // import paymentRoutes from "./routes/payment.js";
 
 dotenv.config();
@@ -31,7 +31,7 @@ app.use("/api/events", eventsRoutes);
 app.use("/api/contact", contactRoutes);
 app.use("/api/uploads", uploadRoutes);
 app.use("/api/payment", paymentRoutes); // ✅ Dummy payment route
-app.use("/api/sports-payment", sportsPaymentRoutes);
+app.use("/api/sports-payment", SportsPaymentRoutes);
 
 
 // Serve uploaded files
