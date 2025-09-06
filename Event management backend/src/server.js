@@ -37,18 +37,6 @@ app.use("/api/sports-payment", SportsPaymentRoutes);
 // Serve uploaded files
 app.use("/uploads", express.static(path.join(process.cwd(), "uploads")));
 
-// // Register Route
-// app.post("/register", (req, res) => {
-//   const { username, email, password } = req.body;
-
-//   if (!username || !email || !password) {
-//     return res.status(400).json({ error: "All fields are required" });
-//   }
-
-//   console.log("User Registered:", req.body);
-
-//   res.status(201).json({ message: "User registered successfully!" });
-// });
 
 // Test route
 app.get("/", (req, res) => {
